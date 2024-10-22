@@ -1,0 +1,37 @@
+:root {
+    --font1: Cousine;
+    --prim: #2b2d42;
+    --sec: #92dce5;
+    --tert: #f8f7f9;
+    --grad: linear-gradient(
+    #92dce5, #2b2d42
+    );
+}
+
+* { box-sizing: border-box; }
+
+/* tags */
+
+/* classes */
+.logo {
+    font-family: var(--font1);
+}
+
+.banner-image {
+    height: 75vh;
+}
+
+.btn-color {
+    background-color: var(--sec);
+}
+
+
+/* ids */
+#header {
+    padding: 8px 0;
+    background-color: var(--sec);
+}
+
+#footer {
+    background-image: var(--grad);
+}
